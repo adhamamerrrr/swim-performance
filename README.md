@@ -1,7 +1,5 @@
 # Swim Performance
 
-[Source repository](https://github.com/adhamamerrrr/swim-performance)
-
 A calm, dark mobile training and performance workspace for swimmers, finswimmers, and coaches. Built with Expo SDK 57, React Native, strict TypeScript, and Expo Router. This is a functional offline application with realistic demo data and durable local storage; no backend or authentication is connected.
 
 ## Run

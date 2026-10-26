@@ -10,3 +10,8 @@
 ## Not verified on hardware
 
 No physical phone, native emulator, or usable browser binary was available. Tap-through behavior, liquid gesture physics/selection/cancellation, keyboard and safe-area layout require a device pass. See README for the complete check sequence. Do not treat successful bundling as a completed native release test.
+
+
+## Source restoration check - 22 October 2026
+
+Restored the missing source files from the saved Swim-Performance.zip. Re-ran `npm ci`, `npm run validate` (domain tests, 57 navigation destinations, 10 tabs, TypeScript), and `npx expo export --platform web`: all passed. Physical-device testing remains outstanding.
